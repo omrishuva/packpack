@@ -1,2 +1,1 @@
-def test():
-  return 'pack1 test'
+from .pack1 import *

@@ -8,4 +8,7 @@ setup(name='packpack',
       author_email='omrishuva1@gmail.com',
       license='MIT',
       packages=['packpack'],
+      install_requires=[
+          'jinja2',
+      ],
       zip_safe=False)
